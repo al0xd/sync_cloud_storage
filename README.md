@@ -8,7 +8,7 @@ Clone this repo to root user folder
 
 ```
 cd ~
-git clone git@github.com:hungvandinh/sync_cloud_storage.git
+git clone git@github.com:hungdinhvan/sync_cloud_storage.git
 
 ```
 Add bash script to your `$PATH`
