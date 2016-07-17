@@ -76,14 +76,14 @@ hs push fold
 ##Options
 **Exclude folders**
 
-in the local home folde
+in the local home folder
 
 create file `.exclude`
 
 ```
 touch .exclude
 ```
-and add folders you want exclude,ex:
+and add folders you want exclude, ex:
 
 ```
 .sass-cache
