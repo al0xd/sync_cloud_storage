@@ -58,7 +58,7 @@ cd ~
 sync to cloud `fold1` to local
 
 ```
-hs pull fold1 -ex
+hs pull fold1
 ```
 
 and sync local to cloud
@@ -70,7 +70,7 @@ cd ~
 ```
 and sync to cloud
 ```
-hs push fold -ex
+hs push fold
 
 ```
 ##Options
@@ -89,4 +89,12 @@ and add folders you want exlucde,ex:
 .sass-cache
 bower_components
 ```
+After that, every run sync you can add `-ex` flag:
+
+```
+hs pull fold -ex
+# or
+hs push fold -ex
+```
+
 
