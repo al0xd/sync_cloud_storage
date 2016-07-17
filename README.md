@@ -83,7 +83,7 @@ create file `.exclude`
 ```
 touch .exclude
 ```
-and add folders you want exlucde,ex:
+and add folders you want exclude,ex:
 
 ```
 .sass-cache
