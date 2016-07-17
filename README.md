@@ -1,6 +1,25 @@
 # sync_cloud_storage
 Sync files from local to cloud storage and cloud to local
 
+**Download and Setup**
+
+
+Clone this repo to root user folder
+
+```
+cd ~
+git clone git@github.com:hungvandinh/sync_cloud_storage.git
+
+```
+Add bash script to your `$PATH`
+
+Open and Edit `.zsrc` or `.bash_profile`
+```
+export PATH=$PATH:/Users/<username>/sync_cloud_storage
+```
+
+**Config and Sync**
+
 Example:
 
 Cloud storage
@@ -30,7 +49,7 @@ CUSER="bill"
 
 To sync from cloud storage to local
 
-go to root folder of bill in local
+go to root folder of `bill` in local
 
 ```
 cd ~
@@ -43,7 +62,9 @@ hs pull fold1 -ex
 ```
 
 and sync local to cloud
+
 go to root user folder
+
 ```
 cd ~
 ```
