@@ -6,20 +6,20 @@
 
 dir=$(pwd)
 # Cloud IP
-CIP="128.199.204.48"
+CIP="<IP>"
 # Samba username in Cloud server
-CUSER="dinhhung"
+CUSER="<USERNAME>"
 # Sync from local to Cloud
 if [[ $1 == "push"  ]]; then
   current_dir=${PWD##*/}
   echo "===== Sync from $dir to CloudDrivers/$current_dir"
-  DES="$CUSER@$CIP:/home/dinhhung/shared/works"
+  DES="$CUSER@$CIP:/home/$CUSER/shared/works"
   SOU=$dir/$2
 # Sync from Cloud to local
 elif [[ $1 == "pull" ]]; then
   echo "===== Sync from Cloud Driver/$2 to $dir/$2"
   DES=$dir
-  SOU="$CUSER@$CIP:/home/dinhhung/shared/works"
+  SOU="$CUSER@$CIP:/home/$CUSER/shared/works"
 fi
 
 # Check flags
