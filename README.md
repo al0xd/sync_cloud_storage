@@ -4,19 +4,29 @@ Sync files from local to cloud storage and cloud to local
 Example:
 
 Cloud storage
-IP: 122.234.567.890
+IP: `122.234.567.890`
 
-user: bill
+user: `bill`
 
-Path `/home/<username>/shared`
+Path `/home/<username>/shared/works`
 
 and in the `shared` has multiple folder, ex: `fold1`, `fold2`,....
 
 Local:
 
-Username: bill
+Username: `bill`
 
 path `/Users/bill`
+
+##Setup
+
+Open `hs` file and edit:
+
+```
+CIP="122.234.567.890"
+CUSER="bill"
+```
+
 
 To sync from cloud storage to local
 
